@@ -11,11 +11,14 @@ public class RangeNumbersPrinter {
             case 4:
             case 5:
                 System.out.println("number is between 1 and 5");
+                break;
             case 6:
             case 7:
             case 8:
             case 9:
             case 10:
-                System.out.println("number is between 6 and 10");}
+                System.out.println("number is between 6 and 10");
+                break;
+        }
     }
 }
