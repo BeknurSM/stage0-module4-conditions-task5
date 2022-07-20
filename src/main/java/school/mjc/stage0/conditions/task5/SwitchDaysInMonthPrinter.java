@@ -3,8 +3,6 @@ package school.mjc.stage0.conditions.task5;
 public class SwitchDaysInMonthPrinter {
     public void amountOfDays(int month) {
         switch (month) {
-            default:
-                System.out.println("wrong number!");
             case 1:
             case 3:
             case 5:
@@ -22,6 +20,9 @@ public class SwitchDaysInMonthPrinter {
             case 9:
             case 11:
                 System.out.println(30);
+                break;
+            default:
+                System.out.println("wrong number!");
                 break;
         }
     }
